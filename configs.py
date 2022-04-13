@@ -4,13 +4,13 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	API_ID = int(os.environ.get("1386682", "0"))
+	API_HASH = os.environ.get("b71138018a6d8f4485c81f3159dcec87")
+	BOT_TOKEN = os.environ.get("5005531765:AAGLP3xzRBwDGL5Cs_U1OwLf8QfjunIaL8M")
+	BOT_USERNAME = os.environ.get("CC_Files_DataBase_bot")
+	DB_CHANNEL = int(os.environ.get("-1001360549004", "-100"))
+	BOT_OWNER = int(os.environ.get("773321791"))
+	DATABASE_URL = os.environ.get("D")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "0")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
