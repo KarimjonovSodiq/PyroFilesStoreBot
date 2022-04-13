@@ -4,14 +4,14 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get(1386682))
-	API_HASH = os.environ.get("b71138018a6d8f4485c81f3159dcec87")
-	BOT_TOKEN = os.environ.get("5005531765:AAGLP3xzRBwDGL5Cs_U1OwLf8QfjunIaL8M")
-	BOT_USERNAME = os.environ.get("CC_Files_DataBase_bot")
-	DB_CHANNEL = int(os.environ.get(-1001360549004))
-	BOT_OWNER = int(os.environ.get(773321791))
-	DATABASE_URL = os.environ.get("mongodb+srv://closeCoder:2006yillar@closecoder.lsbis.mongodb.net/CloseCoder?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("-1001360549004", "0")
+	API_ID = 1386682
+	API_HASH = "b71138018a6d8f4485c81f3159dcec87"
+	BOT_TOKEN = "5005531765:AAGLP3xzRBwDGL5Cs_U1OwLf8QfjunIaL8M"
+	BOT_USERNAME = "CC_Files_DataBase_bot"
+	DB_CHANNEL = -1001360549004
+	BOT_OWNER = 773321791
+	DATABASE_URL ="mongodb+srv://closeCoder:2006yillar@closecoder.lsbis.mongodb.net/CloseCoder?retryWrites=true&w=majority"
+	UPDATES_CHANNEL = "-1001360549004"
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
