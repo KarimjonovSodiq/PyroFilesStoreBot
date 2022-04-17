@@ -11,7 +11,7 @@ class Config(object):
 	DB_CHANNEL = (-1001360549004)
 	BOT_OWNER = (773321791)
 	DATABASE_URL =("mongodb+srv://closeCoder:2006yillar@closecoder.lsbis.mongodb.net/CloseCoder?retryWrites=true&w=majority")
-	UPDATES_CHANNEL =("-1001360549004")
+	UPDATES_CHANNEL =("-1001778638860")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
